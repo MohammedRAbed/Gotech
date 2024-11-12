@@ -1,0 +1,154 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-image: url("../img/footer_bg.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+footer>img {
+    margin-bottom: 70px;
+}
+
+#footer_grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footer_column {
+    flex-direction: column;
+
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.footer_column>.footer_column_title {
+    font-size: 15px;
+    font-family: 'Poppins-Medium';
+    color: black;
+    margin-bottom: 7px;
+}
+
+footer p {
+    font-size: 13px;
+    color: #777777;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.footer_column>div>img {
+    margin-right: 25px;
+}
+
+.footer_column>div{
+    display: flex;
+}
+
+#x{
+    width: 250px;
+    margin-bottom: 21px;
+}
+
+#social_media_list{
+    margin-top: 14px;
+    display: flex;
+    justify-content: start;
+}
+
+.sm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: none;
+    margin-right: 20px;
+}
+
+#facebook{
+    background:linear-gradient(45deg,transparent,#FF8FE2) border-box;
+    background-color: #6362D7;
+    scale: 100%;
+    transition:scale 0.5s,background-color 0.5s;
+}
+
+#skype{
+    background:linear-gradient(45deg,transparent,#68D58C) border-box;
+    background-color: #1DBE75;
+    scale: 100%;
+    transition:scale 0.5s,background-color 0.5s;
+
+}
+
+#linkedin{
+    background:linear-gradient(45deg,transparent,#F03295) border-box;
+    background-color: #FF9AB6;
+    scale: 100%;
+    transition:scale 0.5s,background-color 0.5s;
+
+}
+
+#instagram{
+    background:linear-gradient(45deg,transparent,#F0DB79) border-box;
+    background-color: #F09376;
+    scale: 100%;
+    transition:scale 0.5s,background-color 0.5s;
+
+}
+
+#facebook:hover{
+    background-color: #FF8FE2;
+    scale: 115%;
+}
+
+#skype:hover{
+    background-color: #68D58C;
+    scale: 115%;
+
+}
+
+#linkedin:hover{
+    background-color: #F03295;
+    scale: 115%;
+
+}
+
+#instagram:hover{
+    background-color: #F0DB79;
+    scale: 115%;
+
+}
+
+.sm:hover{
+    cursor: pointer;
+}
+
+footer>a {
+    font-size: 12px;
+    color: #777777;
+    margin-top: 110px;
+    margin-bottom: 136px;
+}
+
+#person3{
+    position: absolute;
+    bottom: 0px;
+    left: 260px;
+    margin: 0px;
+}
+
+#person4{
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+    margin: 0px;
+}
+
+.footer_item:hover,#x:hover{
+    color: black;
+    cursor: pointer;
+}
+

@@ -1,0 +1,37 @@
+#section1{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+
+}
+
+.f1{
+    margin-right: 115px;
+}
+
+.f1_title {
+    margin-top: 65px;
+    font-family: 'Poppins-Medium';
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+.f1_strong_title{
+    font-family: 'Poppins-SemiBold';
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.f1_des {
+    margin-top: 20px;
+    font-size: 15px;
+    width: 486px;
+}
+
+.f1 > button {
+    margin-top: 25px;
+    margin-bottom: 64px;
+}
+
+
+

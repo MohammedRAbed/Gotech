@@ -1,0 +1,57 @@
+#section2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 66px;
+}
+
+#section2>p {
+    font-size: 36px;
+}
+
+#gallery_grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    margin-top: 25px;
+}
+
+#big_img {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#big_img>p {
+    position:absolute;
+    color: white;
+    width: 325px;
+    left: 55px;
+}
+
+#gi_title {
+    bottom: 112px;
+    font-family: 'Poppins-Medium';
+    font-size: 24px;
+}
+
+#gi_des {
+    bottom: 55px;
+    font-size: 14px;
+}
+
+#row_img{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.grid_item {
+    scale: 100%;
+    transition: scale 0.5s;
+}
+
+.grid_item:hover {
+    scale: 105%;
+}
